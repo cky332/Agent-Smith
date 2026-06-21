@@ -21,3 +21,18 @@
   t= 7 carrier=0.06 symptom=0.00 aQ=None aA=0.0 beta=None
   t= 8 carrier=0.06 symptom=0.00 aQ=None aA=0.0 beta=None
   t= 9 carrier=0.06 symptom=0.00 aQ=0.0 aA=None beta=0.0
+  t=10 carrier=0.06 symptom=0.00 aQ=0.0 aA=None beta=0.0
+
+=== override_large/defended: strong virus vs defended agents (beta->0) ===
+  t= 1 carrier=0.06 symptom=0.00 aQ=0.0 aA=None beta=0.0
+  t= 2 carrier=0.06 symptom=0.00 aQ=None aA=0.0 beta=None
+  t= 3 carrier=0.06 symptom=0.00 aQ=None aA=0.0 beta=None
+  t= 4 carrier=0.06 symptom=0.00 aQ=0.0 aA=None beta=0.0
+  t= 5 carrier=0.06 symptom=0.00 aQ=None aA=0.0 beta=None
+  t= 6 carrier=0.06 symptom=0.00 aQ=None aA=0.0 beta=None
+  t= 7 carrier=0.06 symptom=0.00 aQ=None aA=0.0 beta=None
+  t= 8 carrier=0.06 symptom=0.00 aQ=None aA=0.0 beta=None
+  t= 9 carrier=0.06 symptom=0.00 aQ=0.0 aA=None beta=0.0
+  t=10 carrier=0.06 symptom=0.00 aQ=0.0 aA=None beta=0.0
+
+wrote results/realsim.json | calls=480 wall=679.9s
