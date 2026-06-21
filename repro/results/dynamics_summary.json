@@ -1,0 +1,47 @@
+{
+  "E1_ideal_N1e6": {
+    "rounds_mf_99": 41,
+    "rounds_ab_99": 41,
+    "rounds_mf_999": 45,
+    "paper_band": [
+      27,
+      31
+    ],
+    "note": "1 partition/round => r=beta/2 <= 0.5 => >=41 rounds; cannot reach 27-31"
+  },
+  "rounds_vs_effective_rate": {
+    "0.50": 41,
+    "0.60": 35,
+    "0.70": 31,
+    "0.75": 29,
+    "0.80": 27,
+    "0.90": 25,
+    "1.00": 23
+  },
+  "E3_defense_fixedpoint": {
+    "0.00": {
+      "p_final": 1.0,
+      "p_star_theory": 1.0
+    },
+    "0.20": {
+      "p_final": 0.6,
+      "p_star_theory": 0.6
+    },
+    "0.40": {
+      "p_final": 0.2,
+      "p_star_theory": 0.2
+    },
+    "0.50": {
+      "p_final": 0.0157,
+      "p_star_theory": 0.0
+    },
+    "0.60": {
+      "p_final": 0.0,
+      "p_star_theory": 0.0
+    },
+    "0.80": {
+      "p_final": 0.0,
+      "p_star_theory": 0.0
+    }
+  }
+}
